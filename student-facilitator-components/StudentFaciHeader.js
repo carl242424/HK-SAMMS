@@ -23,7 +23,7 @@ export default function StudentFaciHeader() {
     { name: 'Self Attendance', icon: 'camera', screen: 'SelfAttendance' },
     { name: 'QR Scanner', icon: 'scan', screen: 'QRScanner' },
     { name: 'My Profile', icon: 'person', screen: 'MyProfile' },
-    { name: 'Logout', icon: 'log-out', screen: 'Logout' },
+    { name: 'Logout', icon: 'log-out', screen: 'Login' },
   ];
 
   const handleMenuItemPress = async (screen) => {

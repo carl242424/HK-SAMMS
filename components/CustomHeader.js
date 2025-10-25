@@ -24,7 +24,7 @@ export default function CustomHeader() {
     { name: 'Generate QR', icon: 'qr-code', screen: 'QR' },
     { name: 'Manage Admins', icon: 'shield-checkmark', screen: 'Admin' },
     { name: 'Admin Profile', icon: 'person', screen: 'Profile' },
-    { name: 'Logout', icon: 'log-out', screen: 'Logout' },
+    { name: 'Logout', icon: 'log-out', screen: 'Login' },
   ];
 
   const handleMenuItemPress = async (screen) => {

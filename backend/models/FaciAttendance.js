@@ -8,6 +8,7 @@ const faciAttendanceSchema = new mongoose.Schema({
   checkInTime: { type: Date, required: true, default: Date.now },
   location: { type: String, required: true },
   status: { type: String, default: "Pending" },
+  photoData: { type: String }, // Add this for base64 image
   verifiedAt: { type: Date, default: null },
   createdAt: { type: Date, default: Date.now },
 });

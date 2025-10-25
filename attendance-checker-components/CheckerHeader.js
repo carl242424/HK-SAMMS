@@ -23,7 +23,7 @@ export default function CheckerHeader() {
     { name: 'QR Check-In', icon: 'qr-code', screen: 'QRCheckIn' },
     { name: 'QR Scanner', icon: 'scan', screen: 'QRScanner' },
     { name: 'My Profile', icon: 'person-circle', screen: 'Profile' },
-    { name: 'Logout', icon: 'log-out', screen: 'Logout' },
+    { name: 'Logout', icon: 'log-out', screen: 'Login' },
   ];
 
   const handleMenuItemPress = async (screen) => {
